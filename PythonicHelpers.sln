@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonicHelpers", "PythonicHelpers.csproj", "{7F326E0E-35AD-4C17-9CE1-D01C8E8DA7EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F326E0E-35AD-4C17-9CE1-D01C8E8DA7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F326E0E-35AD-4C17-9CE1-D01C8E8DA7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F326E0E-35AD-4C17-9CE1-D01C8E8DA7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F326E0E-35AD-4C17-9CE1-D01C8E8DA7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C37A250D-EB8C-4484-918C-82E05F9E0F11}
+	EndGlobalSection
+EndGlobal
