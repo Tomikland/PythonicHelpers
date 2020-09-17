@@ -118,6 +118,12 @@ namespace Pythonic
                 dicts = dictionaries;
             }
 
+            /// <summary>
+            /// Creates a copy of a ChainMap whose dictionaries are independent of the original but contain the same elements
+            /// </summary>
+            public ChainMap<TKey, TValue> Clone() => ChainMap.FromList(
+                dicts.Select(d => d.ToDictionary(entry => entry.Key, entry => entry.Value)));
+
         }
         //Non-generic overload in order to utilize type inference for creating Chainmaps
         public class ChainMap 
